@@ -66,9 +66,17 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #4d4d4d;
-    margin: 1em 0;
+    margin: 4rem 0;
     padding: 0;
   }
   
 /* Inside navigation */
 
+.content-header {
+    display: flex;
+    justify-content: center;
+}
+
+.content-header a {
+    font-size: 27px;
+}
