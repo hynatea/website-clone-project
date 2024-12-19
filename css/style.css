@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins", sans-serif ;
+    font-weight: 400;
+    margin: 4rem 10rem;
+    background-color: #232830;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo  {
+    font-size: 1.5em;
+}
+
+.nav-header a {
+    padding-left: 2.5rem;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Main section */
+
+.main {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main img {
+    width: 10%
+}
+
+.main h1 {
+    font-size: 4em;
+    font-family: "Recursive", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #FF7575;
+    margin-bottom: 0;
+}
+
+.main h2 {
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+
+/* hr */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #4d4d4d;
+    margin: 1em 0;
+    padding: 0;
+  }
+  
+/* Inside navigation */
+
