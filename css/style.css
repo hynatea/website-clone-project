@@ -75,8 +75,263 @@ hr {
 .content-header {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .content-header a {
     font-size: 27px;
+    color: #909090;
+    text-decoration: none;
+    font-style: italic;
+    font-family: "Recursive", sans-serif;
+    padding-left: 2.5rem;
+}
+
+/* Burger icon */
+
+.burger span {
+    display: block;
+    width: 24px;
+    height: 4px;
+    background-color: #909090;
+    margin: 6px 0;
+}
+
+/* Grid */
+
+.container {
+    padding-top: 4rem;
+}
+
+.card {
+    padding: 4rem;
+    display: flex;
+    justify-content: start;
+}
+
+.card-inner {
+    border-color: #fff;
+    border: solid;
+    background-color: #fff;
+    padding: 2rem 2rem 1rem;
+    border-radius: 22px;
+}
+
+/* Card image */
+
+.card-image img {
+    width: 300px;
+    height: 140px;
+    border-radius: 22px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+}
+
+/* Grid-family */
+
+.grid-family {
+    padding: 0 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+/* Card-content */
+
+.card-content {
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    padding-top: 1rem;
+    margin: 0 1rem;
+    color: #0f1217;
+}
+
+.card-content h2 {
+    font-size: 19px;
+}
+
+.card-content p {
+    font-size: 16px;
+}
+
+.card-footer {
+    display: flex;
+}
+
+.card-footer p {
+    padding-right: 1rem;
+}
+
+/* Footer navigation */
+
+.footer-nav {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+
+}
+
+.footer-nav a {
+    font-family: "Recursive", sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    padding: 0 1rem;
+    color: #909090;
+}
+
+/* Footer page */
+
+.page-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.page-footer p {
+    border: solid #4699e0;
+    border-radius: 5px;
+    background-color: #4699e0;
+    font-size: 19px;
+    padding: 0 5px;
+    margin: auto;
+}
+
+footer .container-footer {
+    display: flex;
+    align-items: center;
+}
+
+footer .logo {
+    font-size: 30px;
+    padding-right: 2rem;
+}
+
+footer .signature {
+    padding-right: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    html {
+        margin: 2rem;
+    }
+    body {
+        margin: auto;
+    }
+
+    /*header*/
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    header .logo {
+        font-size: 20px;
+        
+    }
+    .nav-header a {
+        font-size: 15px;
+        padding: 0 1rem;
+    }
+    .nav-header {
+        display: flex;
+        justify-content: center;
+        padding-top: 0.5rem;
+    }
+
+    /*main*/
+    
+    .main {
+        margin-top: 2rem;
+    }
+    .main img {
+        width: 30%;
+        padding-left: 2rem;
+    }
+    .main h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .main h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    /*hr */
+
+    hr {
+        margin: 2rem 0;
+    }
+
+    /*section navigation */
+    
+    .content-header a {
+        font-size: 15px;
+        padding: 0;
+        padding-right: 5px;
+    }
+    
+    /* Burger icon */
+    
+    .burger {
+        padding-right: 1rem;
+    }
+
+    /*card*/
+
+    .container {
+        padding-top: 2rem;
+    }
+    .card {
+        padding: 1rem 0;
+    }
+    .grid-family {
+        flex-wrap: wrap;
+    }
+    .card-inner {
+        padding: 1rem 5px;
+    }
+    .card-content h2 {
+        font-size: 18px;
+    }
+    .card-content p {
+        font-size: 12px;
+    }
+
+    /* nav-footer */
+
+    .footer-nav {
+        padding-top: 2rem;    
+    }
+    
+    .footer-nav a {
+        font-size: 15px;
+    }
+
+    /*footer*/
+
+    footer .page-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer .logo {
+        padding: 0;
+        padding-right: 1rem;
+        font-size: 10px;
+    }
+
+    footer .signature {
+        padding-right: 1rem;
+    }
+
+    .page-footer p {
+        font-size: 8px;
+    }
+
 }
