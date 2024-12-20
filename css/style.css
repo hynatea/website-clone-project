@@ -201,6 +201,11 @@ hr {
     font-size: 19px;
     padding: 0 5px;
     margin: auto;
+    text-decoration: none;
+}
+
+.page-footer a {
+    text-decoration: none;
 }
 
 footer .container-footer {
